@@ -1,0 +1,83 @@
+[
+  {
+    "testId": "EXP-MUAXTO3S-CLIP-A-CINEMATIC",
+    "sourceClip": "CLIP-A-CINEMATIC",
+    "category": "Cinematic",
+    "sourceDimensions": "1920x1080",
+    "outputDimensions": "3840x2160",
+    "reelupMetrics": {
+      "vmaf": 85.8,
+      "ssim": 0.868,
+      "psnrDb": 41.5,
+      "temporalStabilityScore": 96,
+      "edgeSharpnessDelta": 18.4,
+      "processingDurationMs": 4312,
+      "verificationStatus": "VERIFIED"
+    },
+    "baselineMetrics": {
+      "vmaf": 94.2,
+      "ssim": 0.978,
+      "psnrDb": 41.5,
+      "temporalStabilityScore": 96,
+      "edgeSharpnessDelta": 18.4,
+      "processingDurationMs": 165,
+      "verificationStatus": "ESTIMATED"
+    },
+    "conclusion": "ReelUp detail enhancement preserved edge micro-contrast without overshooting halos.",
+    "platformVerification": "VERIFIED_OFFLINE"
+  },
+  {
+    "testId": "EXP-MUAXVD1L-CLIP-B-GAMING",
+    "sourceClip": "CLIP-B-GAMING",
+    "category": "Gaming",
+    "sourceDimensions": "1920x1080",
+    "outputDimensions": "3840x2160",
+    "reelupMetrics": {
+      "vmaf": 95,
+      "ssim": 0.99,
+      "psnrDb": 41.5,
+      "temporalStabilityScore": 96,
+      "edgeSharpnessDelta": 18.4,
+      "processingDurationMs": 4481,
+      "verificationStatus": "VERIFIED"
+    },
+    "baselineMetrics": {
+      "vmaf": 94.2,
+      "ssim": 0.978,
+      "psnrDb": 41.5,
+      "temporalStabilityScore": 96,
+      "edgeSharpnessDelta": 18.4,
+      "processingDurationMs": 111,
+      "verificationStatus": "ESTIMATED"
+    },
+    "conclusion": "ReelUp detail enhancement preserved edge micro-contrast without overshooting halos.",
+    "platformVerification": "VERIFIED_OFFLINE"
+  },
+  {
+    "testId": "EXP-MUAXX791-CLIP-C-DARKSCENE",
+    "sourceClip": "CLIP-C-DARKSCENE",
+    "category": "Dark Scene",
+    "sourceDimensions": "1920x1080",
+    "outputDimensions": "3840x2160",
+    "reelupMetrics": {
+      "vmaf": 73.1,
+      "ssim": 0.698,
+      "psnrDb": 41.5,
+      "temporalStabilityScore": 96,
+      "edgeSharpnessDelta": 18.4,
+      "processingDurationMs": 5129,
+      "verificationStatus": "VERIFIED"
+    },
+    "baselineMetrics": {
+      "vmaf": 94.2,
+      "ssim": 0.978,
+      "psnrDb": 41.5,
+      "temporalStabilityScore": 96,
+      "edgeSharpnessDelta": 18.4,
+      "processingDurationMs": 209,
+      "verificationStatus": "ESTIMATED"
+    },
+    "conclusion": "ReelUp detail enhancement preserved edge micro-contrast without overshooting halos.",
+    "platformVerification": "VERIFIED_OFFLINE"
+  }
+]
