@@ -33,7 +33,7 @@ src/
   cli/            # command-line entry point
 docs/research/    # customer problem brief, quality methodology, user personas
 experiments/
-  dataset/        # sample clips (cinematic, gaming, dark scene)
+  dataset/        # sample clips (cinematic, gaming, dark scene) — fetched, not committed
   output/         # enhanced 4K results
   data/           # benchmark_results.json
 ```
@@ -42,6 +42,7 @@ experiments/
 
 ```bash
 npm install
+npm run dataset   # fetch the benchmark clips (~180 MB, not stored in git)
 npm run dev
 ```
 

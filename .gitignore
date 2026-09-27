@@ -4,3 +4,13 @@ build/
 .env
 .env.*
 *.log
+
+# Media assets — keep large binaries out of git history.
+# Fetch the benchmark dataset with: npm run dataset
+experiments/dataset/*.mp4
+experiments/output/*.mp4
+experiments/output/*.zip
+*.mp4
+*.mov
+*.mkv
+*.zip

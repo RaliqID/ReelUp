@@ -9,7 +9,11 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "cli": "tsx src/cli/index.ts",
+    "dataset": "node scripts/fetch-dataset.mjs",
     "test:metrics": "tsx src/lab/test_runner.ts"
+  },
+  "dataset": {
+    "repo": "RaliqID/ReelUp"
   },
   "dependencies": {
     "clsx": "^2.1.1",
